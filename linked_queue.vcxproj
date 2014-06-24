@@ -65,14 +65,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="global.h" />
-    <ClInclude Include="queue.h" />
     <ClInclude Include="storage.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="driver.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Text Include="NOTES.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
