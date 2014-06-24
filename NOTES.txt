@@ -1,15 +1,11 @@
-linked_queue
-============
-
-Demonstration of technique of maintaining a queue inside storage without havingh separated queue object. May be useful for cases when you want to insert elements into storage as quickly as possible and do not want to creating new object and place them in queue. 
 
 
 
 
-       
-        First            Last
-            |             |
-            v             |
+            
+        First             Last
+            |                |
+            v                |
     ------------     -----|------     
     |        o-|---> |    |-->o-|----> NULL
     |          |     |          |     
@@ -17,7 +13,7 @@ Demonstration of technique of maintaining a queue inside storage without havingh
 
 
 
-  Queuing next record for processing:
+	Queuing next record for processing:
               
             1) *Last = &NEW;  
 
